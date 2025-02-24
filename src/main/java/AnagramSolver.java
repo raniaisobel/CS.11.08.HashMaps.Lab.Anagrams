@@ -13,7 +13,7 @@ public class AnagramSolver {
      * @param filename
      * @return
      */
-    public static HashMap<String, ArrayList<String>> anagrams(String filename) throws FileNotFoundException {
+    public static HashMap<String, ArrayList<String>> anagrams(String filename) throws FileNotFoundException { //here is the error
         HashMap<String,ArrayList<String>> result = new HashMap<>();
         Scanner scanner = new Scanner(new File(filename));
         while(scanner.hasNextLine()){
